@@ -5,8 +5,6 @@
  */
 
 exports = module.exports = require('./lib/server');
-exports.Request = require('./lib/request');
-exports.Response = require('./lib/response');
 
 /**
  * Export helpers for extension grants.

@@ -1,7 +1,7 @@
 {
-  "name": "oauth2-server",
+  "name": "@greyskymedia/oauth2-server",
   "description": "Complete, framework-agnostic, compliant and well tested module for implementing an OAuth2 Server in node.js",
-  "version": "4.0.0-dev.3",
+  "version": "4.0.0-dev.7",
   "keywords": [
     "oauth",
     "oauth2"
@@ -32,12 +32,17 @@
     },
     {
       "name": "Max Truxa"
+    },
+    {
+      "name": "Grey Sky Media",
+      "email": "support@greyskymedia.com"
     }
   ],
   "main": "index.js",
   "dependencies": {
     "basic-auth": "2.0.1",
     "bluebird": "3.7.2",
+    "crypto-browserify": "3.12.0",
     "lodash": "4.17.21",
     "promisify-any": "2.0.1",
     "statuses": "1.5.0",
