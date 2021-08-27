@@ -1,7 +1,7 @@
 {
   "name": "@greyskymedia/oauth2-server",
   "description": "Complete, framework-agnostic, compliant and well tested module for implementing an OAuth2 Server in node.js",
-  "version": "4.0.0-dev.7",
+  "version": "4.0.0-dev.8",
   "keywords": [
     "oauth",
     "oauth2"
@@ -46,7 +46,8 @@
     "lodash": "4.17.21",
     "promisify-any": "2.0.1",
     "statuses": "1.5.0",
-    "type-is": "1.6.18"
+    "type-is": "1.6.18",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "jshint": "2.13.0",
